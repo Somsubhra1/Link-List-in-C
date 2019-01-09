@@ -10,7 +10,7 @@ Operations include
       <li>Displaying all Nodes</li>
       <li>Updating a Node</li>
       <li>Display node count</li>
-    <\ul>
-<code>
+    </ul>
+</code>
     
 Happy Coding :)
