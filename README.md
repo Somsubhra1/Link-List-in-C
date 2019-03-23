@@ -1,14 +1,11 @@
 # Link-List-in-C
-Simple Link List Operations in C
-Simple Link List inplementation in C using CLI interface. User has to choose the option he wants to execute from a list of options.
-Operations include
-
-   <ul>
-      <li>Creating a Node</li>
-      <li>Displaying a Node</li>
-      <li>Displaying all Nodes</li>
-      <li>Updating a Node</li>
-      <li>Display node count</li>
-    </ul>
-    
+Repository that contains the basic source code for various types of Linked List
+ 
+ <ul>
+   <li>Singly Linked List(or Single Link List)</li>
+   <li>Doubly Linked List(or Double Link List)</li>
+   <li>Circular Linked List</li>
+   <li>Circular Doubly Linked List</li>
+  </ul>
+ 
 Happy Coding :)
