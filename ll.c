@@ -67,6 +67,7 @@ int main(){
             case 12: dispList(head);break;
             case 13: printf("Length[List] : %d\n", getListCount(head));break;
             case 14: search(head);break;
+            case 15: sortList(head);break;
             case 0: status = 0;break;
             default: printf("Invalid Choice\n");
         }
@@ -351,5 +352,23 @@ void search(node *head){
 
 // Sorting
 node *sortList(node *head){
-    
+    node *temp = head, *temp1, *min;
+    int x;
+    while(temp != NULL) {
+        temp1 = temp->next;
+        min = temp;
+        while(temp1 !=  NULL) {
+            if(temp1->data < temp->data) {
+                min = temp1;
+            }
+            temp1 = temp1->next;
+        }
+        x = min->data;
+        min->data = temp->data;
+        temp->data = x;
+        temp = temp->next;
+
+    }
+    printf("List sorted in ascending order");
+    return head;
 }
